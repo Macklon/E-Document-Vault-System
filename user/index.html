@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>E-vault | HomePage</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Toastr style -->
+    <link href="css/plugins/toastr/toastr.min.css" rel="stylesheet">
+
+    <!-- Gritter -->
+    <link href="js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
+
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <style type="text/css">
+
+   .footer-bs {
+    background-color: #3c3d41;
+    padding: 60px 40px;
+    color: rgba(255,255,255,1.00);
+    }
+
+ .footer-bs .footer-nav,  .footer-bs .footer-ns { padding:10px 25px; }
+
+
+
+    .footer-bs .footer-nav ul.list { list-style:none; padding:0px; }
+    .footer-bs .footer-nav ul.list li { padding:5px 0px;}
+    .footer-bs .footer-nav ul.list a { color:rgba(255,255,255,0.80); }
+    .footer-bs .footer-nav ul.list a:hover { color:rgba(255,255,255,0.60); text-decoration:none; }
+
+    .footer-bs .footer-ns p { font-size:12px; color:rgba(255,255,255,0.70); }
+
+@media (min-width: 768px) {
+    .footer-bs .footer-nav, .footer-bs .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); }
+}
+    </style>
+
+</head>
+
+<body ><!-- style="background-image: url('bg.jpg');" -->
+    
+
+        <div class="gray-bg">
+            <div class="col-md-12">
+        <div class="row border-bottom">
+        <nav class="navbar navbar-fixed-top white-bg" role="navigation" style="margin-bottom: 0">
+
+            <div class="navbar-header">
+
+           <h1 style="font-size: 2em;" class="navbar-minimalize minimalize-styl-2 "><img src="logo.png" width="40px" height="40px"> E-Vault </h1>
+        </div>
+
+            <ul class="nav navbar-top-links navbar-right">
+      
+                <li>
+                    <a href="login.php">
+                        <i class="fa fa-sign-in"></i> Log in
+                    </a>
+                </li>
+
+                 <li>
+                    <a href="register.php">
+                        <i class="fa fa-user-plus"></i> Sign up
+                    </a>
+                </li>
+
+               <!--  <li>
+                    <button class="btn btn-primary"  name="">Login</button>
+                </li>
+                <li><button class="btn btn-primary"  name="">Sign-up</button></li> -->
+               
+            </ul>
+
+        </nav>
+        </div>
+    </div>
+    
+        
+         <div class="col-md-12 col-sm-12" style="background-color:#3c9ad8; padding:0px;">
+<div id="myCarousel" class="carousel slide " data-ride="carousel">
+            <ol class="carousel-indicators circlelists">
+                <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+                <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+             
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item ">
+                    <img class="cbsenewbanner" src="pic/ban.jpg" style="width:100%; margin:auto;">
+                    <div class="carousel-caption" style="padding: 4px;padding-bottom: 8px;  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;">
+                        <div class="row " style="margin-top: -31%;">
+                            <p style="font-size:18px; padding-top: 10px; padding-bottom: 20px; line-height: 25px;">
+                                <strong>GET DOCUMENTS AUTHENTICATED ANYWHERE ANYTIME</strong><br>
+                        </p>
+                        </div>
+                        <h4 class="">Easy access anywhere anytime &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="register.php">
+          <button class="btn btn-primary ovalbtn1 trbtn"> SIGN UP FOR E-VAULT </button>
+          </a></h4> 
+                    </div>
+
+                </div>
+                
+                <div class="item active">
+                    <img src="pic/bann.jpg" style="width:100%; margin:auto;">
+                    <div class="carousel-caption" style="padding: 4px;padding-bottom: 8px;">
+                        <h4 class="">Easy access anywhere anytime &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="register.php">
+          <button class="btn btn-primary ovalbtn1 trbtn"> SIGN UP FOR E-VAULT </button>
+          </a></h4> </div>
+                </div>
+
+                <div class="item">
+                    <img src="pic/ban5.jpg" style="width:100%; margin:auto;">
+                    
+                </div>
+            </div>
+
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"> 
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> 
+            <span class="sr-only">Previous</span> </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"> 
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span> </a>
+</div>
+</div>
+
+       <div class="col-md-12 gray-bg" style="padding:60px 15px; "> 
+            <div class="container">
+       
+        
+           <h1 style="padding-bottom: 40px;" class="text-center">How It Works?</h1>
+           <div class="col-md-2 col-sm-1"></div>
+           <div class="col-md-2 col-sm-2  text-center">
+                <a class="links hvr-grow" data-toggle="modal" data-target="#myModal"><img class="img-00" alt="Sign Up with Mobile" src="pic/phone.png"></a>
+                <p> Sign Up <br>with Mobile
+                </p>
+                 <!-- Modal -->
+                        <div id="myModal" class="modal fade" role="dialog">
+                          <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">How can I get a E-vault account?</h4>
+                              </div>
+                              <div class="modal-body">
+                                <strong> Signing up for E-vault is easy - all you need is your mobile number.</strong>
+                                <br>
+                                <!-- <ul class="">
+                                <li> -->Your <strong>mobile number</strong> will be authenticated by sending an <strong>OTP</strong> (one-time password) followed by selecting a username &amp; password. This will create your E-vault account.<!-- </li>
+                                <li> After your E-vault account is successfully created, you can voluntarily provide your <strong> Aadhaar number</strong> (issued by UIDAI) to avail additional services.</li>
+                            </ul> -->
+                              </div>
+                              <div class="modal-footer">
+                                <a href="register.php"><button class="btn btn-secondary ovalbtn hvrblck" style="border-radius: 3px;">Sign Up Now!</button></a>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+            </div>
+
+            <!-- <div class="col-md-2 col-sm-2  text-center">
+                <a class="links hvr-grow"><img class="img-01" alt="Sync your Aadhaar" src="pic/adhaar.png"></a>
+                <p>Sync<br>your Aadhaar
+                </p>
+            </div> -->
+
+            <div class="col-md-2 col-sm-2  text-center">
+                <a class="links hvr-grow"><img alt="Get documents from Issuers" src="pic/upload.png" height="75" width="75"></a>
+                <p>Upload <br> documents 
+                </p>
+            </div>
+
+            <div class="col-md-2 col-sm-2  text-center">
+                <a class="links hvr-grow"><img alt="Documents verified by Requesters" src="pic/verify.png" height="75" width="75"></a>
+                <p>Documents verified<br>by official
+                </p>
+            </div>
+
+           <div class="col-md-2 col-sm-2 text-center">
+                <a class="links hvr-grow"><img class="img-05" alt="Share Documents" src="pic/share.png"></a>
+                <p>Share documents<br>with others
+                </p>
+            </div>
+
+            
+            <div class="col-md-1 col-sm-1"></div>
+
+        </div>
+    </div>
+    <div class="col-md-12" style="padding:20px 20px;background-color: #28a9e0;">
+                <strong><p class="text-center dwn" style="font-size: 1.2em;">                    
+                        E-vault is a secure cloud based platform for storage, sharing and verification of documents &amp; certificates.                        
+                        <a href="register.php"><button class="btn btn-secondary ovalbtn hvrblck" style="border-radius: 3px;">Sign Up Now!</button></a>
+                </p></strong>
+            </div>
+</div>
+                <!-- <div class="">
+                    <div class="pull-right">
+                        
+                    </div>
+                    <div>
+                        <strong>Copyright</strong> E-vault &copy; 2017-2018
+                </div>
+            </div> -->
+            <!-- Footer-->
+    <footer class="footer-bs">
+        <div class="row">
+            <div class="col-md-3 footer-nav animated fadeInLeft">
+                <ul class="list">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contactus.html">Contacts</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                    </ul>
+                    <a href="https://www.facebook.com"><img src="pic/fb.png"></a><a href="https://www.twitter.com"><img src="pic/t.png"></a><a href="https://www.google.com"><img src="pic/gp.png"></a><a href="https://www.youtube.com"><img src="pic/yt.png"></a>
+            </div>
+            <div class="col-md-4  ">
+            </div>
+            <div class="col-md-2 "> 
+            </div>
+            <div class="col-md-3 footer-ns animated fadeInRight">
+                <img src="logo.png" width="50px" height="50px">
+                <h2>E-vault</h2>
+                <p>Share Documents Anywhere and Anytime</p>
+                
+                <p>© E-vault  2017-2018, All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+            
+        
+    <!-- Mainly scripts -->
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
